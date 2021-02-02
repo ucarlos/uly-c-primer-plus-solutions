@@ -1,0 +1,6 @@
+#+title: C Primer Plus Problem Solutions
+
+This repository contains all the program solutions that I wrote while reading Stephen Prata's C Primer Plus in 2017. This contains the oldest C Programs that I have written. These program can be compiled with gcc or g++.
+
+
+
