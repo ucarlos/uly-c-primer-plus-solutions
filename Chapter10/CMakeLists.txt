@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.6)
+project(Chapter10)
+
+set(CMAKE_C_STANDARD 99)
+
+set(SOURCE_FILES main.c)
+add_executable(pointertest pointertest.c)
+add_executable(main main.c)
+add_executable(tester test.c)
+add_executable(program1 problem_1.c)
+add_executable(product product.c)
+add_executable(program2 problem_2.c)
+add_executable(pointer_exercise pointer_exercise.c)
+add_executable(swap swap.c)
+add_executable(problem_9 problem_9.c)

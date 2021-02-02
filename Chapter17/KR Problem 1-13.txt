@@ -1,0 +1,26 @@
+Array solution:
+    Requires two arrays in a  structure
+    | n1 | n2 | n3 | n4 | -- array1 -- Holds length
+    | e1 | e2 | e3 | e4 | -- array2 -- Holds occurrences of each value in array1
+
+procedure:
+    for each string in char *[] argc
+        find the string length of a string
+        Search array 1 if it exists
+          if found, increment array 2 value
+          if not found, add length to array and increment array 2 value
+          if not found and adding length to array is greater than array length, then expand array
+    end for loop
+
+    sort structure using only array1
+
+    print histogram
+        for every value in structure
+               print array1, and draw x for its array2 value(another for loop)
+               newline
+        end for loop
+end procedure
+
+
+It would be better to hold the strings in a balanced binary search tree which would speed up searching,
+

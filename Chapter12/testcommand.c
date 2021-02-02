@@ -1,0 +1,12 @@
+//
+// Created by ulysses on 3/4/17.
+//
+#include<stdio.h>
+#include<string.h>
+int main(int argc, char *argv[]){
+    if (argc > 1 && strcmp(argv[1], "-p") == 0)
+        printf("Hello World!\n");
+    else printf("Abort.\n");
+
+    return 0;
+}
